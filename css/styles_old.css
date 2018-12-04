@@ -1,0 +1,307 @@
+/* CONTENTS */
+
+/* MAIN PAGE */
+/* 1. FONTS */
+/* 2. COMMON AND ROLLING */
+/* 3. MENU */
+/* 4. TOP SECTION */
+/* 5. REVIEWS */
+/* 6. VIDEOS */
+/* 7. FORM ACTION */
+/* 8. ABOUT US */
+/* 9. CONTACTS AND COPYRIGHT */
+
+/* OTHER PAGES */
+/* 10. PROBLEM OPTION */
+/* 11. PAGE PROBLEM */
+
+
+/* 1. FONTS */
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+
+/* 2. COMMON AND ROLLING */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: initial;
+  cursor: pointer;
+}
+html {
+  font-family: "OpenSans";
+  font-weight: normal;
+}
+body {
+  display: block;
+  margin: 0;
+}
+.container {
+  width: 1600px;
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+input[type="submit"]{cursor: pointer;}
+h1, h2, h3, h4, h5, h6{
+  display: block;
+  margin: 0 0 15px;
+  font-weight: normal;
+}
+h2 {
+  font-family: "OpenSans";
+  font-size: 44px;
+  line-height: 27px;
+  color: #646363;
+}
+h4 {
+  font-family: "OpenSans";
+  font-size: 18px;
+  line-height: 24px;
+  color: #2a2a2a;
+}
+p {
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 24px;
+  color: #616060;
+}
+.center {text-align: center;}
+.white {color: #fff;}
+.red {color: #cd222a;}
+/**{margin: 0; padding: 0;}
+html, body{width: 100%; height: 100%;}
+body{height: auto !important; min-height: 100%; padding-bottom: 122px; box-sizing: border-box; position: relative; font-family: 'Roboto', sans-serif; font-size: 15px; color: #000; background: #fff;}
+ul{list-style-type: none;}
+a{color: #467c25; text-decoration: underline; cursor: pointer; outline: none; transition: 0.3s;}
+a:hover{text-decoration: none;}
+img{border: 0;}
+table{border-spacing: 0;}*/
+
+/* 3. MENU */
+#menu {
+  display: block;
+  position: absolute;
+}
+/* 4. TOP SEСTION */
+#top {
+  padding-top: 30px;
+  background-color: #e8e8e8; 
+}
+.logo {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 30px auto;
+}
+.category_big {
+  display: block;
+  text-align: center;
+}
+.category_big .info_block {
+  display: block;
+  width: 35%;
+  margin: 65px auto 20px;
+}
+.category_big .pic_partition {
+  margin-top: -70px;
+}
+.block_wrapper {
+  display: block;
+  width: 100%;
+}
+.gradient1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to bottom, #E8E8E8 0%, #F3F3F3 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E8E8E8), color-stop(100, #F3F3F3));
+  background-image: -webkit-linear-gradient(top, #E8E8E8 0%, #F3F3F3 100%);
+  background-image: -moz-linear-gradient(top, #E8E8E8 0%, #F3F3F3 100%);
+  background-image: -o-linear-gradient(top, #E8E8E8 0%, #F3F3F3 100%);
+  background-image: -ms-linear-gradient(top, #E8E8E8 0%, #F3F3F3 100%);
+}
+.mini_block_wrapper {
+  display: flex;
+  width: 33.33333%;
+}
+.mini_block_wrapper {
+  border: 1px solid #fff;
+  border-bottom: none;
+}
+.mini_block_wrapper:first-child {
+  border-left: none;
+}
+.mini_block_wrapper:last-child {
+  border-right: none;
+}
+.category_small {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 50px 20px 20px;
+  text-align: center;
+  height: 730px;
+}
+.category_small .info_block {
+  text-align: center;
+  margin: 20px auto;
+}
+.info_block h2 {
+  margin: 20px 0 30px;
+}
+.pic_partition {
+  width: 100%;
+  max-height: 100%;
+  margin-top: 20px;
+}
+.pic_partition img {
+  /*background-color: #e8e8e8;*/
+  mix-blend-mode: multiply;
+  max-width: 100%;
+}
+
+/* 5. REVIEWS */
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #f3f3f3;
+}
+h2.head {
+  margin: 0 0 60px;
+  text-align: center;
+}
+.user {
+  display: flex;
+  width: 100%;
+  padding: 0 50px;
+}
+.img_usr {
+  display: inline-block;
+  width: 33%;
+}
+.img_usr img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.text_usr {
+  display: inline-block;
+  width: 67%;
+  padding: 0 20px;
+}
+blockquote {
+  font-size: 24px;
+  line-height: 48px;
+}
+blockquote.clos {
+  position: relative;
+  left: 100%;
+}
+.name {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2a2a2a;
+  margin-bottom: 24px;
+}
+.text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #616060;
+}
+
+/* 6. VIDEOS */
+.video {
+  display: flex;
+  padding: 60px 0;
+}
+.slider {
+  display: flex;
+  width: 100%;
+}
+.element {
+  display: block;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+.element iframe {
+  width: 350px;
+  height: 200px;
+}
+/* 7. FORM ACTION */
+.cta {
+  display: flex;
+  background: #e8e8e8 url("../img/background-bkgr_1.jpg") no-repeat top center;
+  padding: 90px 0;
+}
+.action_form {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.action_form input {
+  width: 33.33%;
+  padding: 25px 0;
+  margin: 20px 0;
+}
+.input_field input[placeholder] {
+  background-color: #e8e8e8;
+  color: #fff;
+}
+/* 8. ABOUT US */
+.about {
+  height: 520px;
+  background-image: url("../img/background-bkgr_2.jpg");
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+}
+.about .info_block {
+  display: block;
+  width: 50%;
+  margin: 50px auto 20px;
+  text-align: center;
+}
+/* 9. CONTACTS AND COPYRIGHT */
+.contacts {
+
+}
+.places {
+  text-align: center;
+  font-size: 16px;
+  line-height: 48px;
+}
+
+copyright {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 0;
+}
+copyright a:hover {
+  color: #cd222a;
+}

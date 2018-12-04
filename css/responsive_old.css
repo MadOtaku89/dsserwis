@@ -1,0 +1,6 @@
+@media (min-width: 1900px) {
+	section.top .container {
+		width: 100%;
+		padding:0;
+	}
+}
